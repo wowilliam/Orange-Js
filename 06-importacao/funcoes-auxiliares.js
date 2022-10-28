@@ -1,6 +1,11 @@
 
+const entradas = [10, 5, 10, 50, 98, 23, 33, 44, 7];
+let i = 0;
+
 function gets() {
-    return 10;
+    const valor =entradas[i];
+    i++
+    return valor;
 }
 
 function print(texto) {
